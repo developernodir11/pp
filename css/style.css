@@ -35,7 +35,10 @@
     0% { box-shadow: 20px 0 #000, -20px 0 #0002; background: #000; }
     100% { box-shadow: 20px 0 var(--oq), -20px 0 var(--oq); background: var(--oq); }
   }
-
+  .profil-rasm {
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
 :root{
   --ochiqora:rgb(26, 26, 26);
   --ochiq:rgb(187, 187, 187);
@@ -325,7 +328,10 @@ background-color: var(--qora);
   width: 100%;
   padding: 20px;
 }
-
+.container button{
+  background-color: var(--yorqin-sariq);
+  color: var(--yorqin-sariq);
+}
 .device-section {
   position: relative;
   display: flex;
@@ -465,10 +471,10 @@ background-color: var(--qora);
   line-height: 1.6;
 }
 .card-container {
-  padding-left: 410px;
+  padding-left: 330px;
   padding-top:100px;
   gap: 38px;
-color: var(--ochiqora);
+color: rgb(153, 153, 153);
   display: flex;
   gap: 24px;
 }
@@ -534,7 +540,7 @@ color: var(--kulrang);
 }
 .card-container {
   color: var(--och-kul);
-  padding-left: 450px;
+  padding-left: 300px;
   padding-top:100px;
   gap: 38px;
   display: flex;
@@ -575,7 +581,7 @@ letter-spacing: 1.2px;
 text-align: center;
 }
 .iop{
-  padding-left: 350px;
+  padding-left: 300px;
 }
 .wrapper {
   padding-left: 410px;
@@ -684,17 +690,15 @@ h1 {
 .button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: var(--sariq);
+  background-color: var(--yorqin-sariq);
   color:var(--qora);
   text-decoration: none;
   border-radius: 5px;
   font-size: 1rem;
-  transition: background-color 0.3s ease;
+
 }
 
-.button:hover {
-  background-color: var(--sariq);
-}
+
 
 .gallery {
   background-color:var(--ochiqora);
